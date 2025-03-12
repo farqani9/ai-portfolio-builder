@@ -1,11 +1,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { redirect } from "next/navigation";
 
 export default function Home() {
-  // Temporary redirect to dashboard for testing
-  redirect("/dashboard");
-
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}

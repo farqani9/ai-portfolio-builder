@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI-Powered Portfolio Builder
+
+An innovative web application that empowers creative professionals, freelancers, job seekers, and agencies to create personalized, professional portfolio websites with ease and speed. This tool harnesses artificial intelligence to deliver tailored design recommendations and dynamically generate content, slashing the time and effort typically required for portfolio creation.
+
+## Features
+
+- **AI-Driven Design**: Get personalized design recommendations based on your style and content.
+- **Content Generation**: Our AI helps you write compelling project descriptions and about sections.
+- **Easy Customization**: Customize your portfolio with intuitive controls and see changes in real-time.
+- **User Authentication**: Secure login and registration system.
+- **Responsive Design**: Looks great on all devices, from mobile to desktop.
+- **Portfolio Publishing**: Share your portfolio with a unique URL.
+
+## Tech Stack
+
+- **Frontend**: Next.js, React, TypeScript, Tailwind CSS
+- **UI Components**: Radix UI, Shadcn UI
+- **Authentication**: NextAuth.js
+- **Form Handling**: React Hook Form, Zod
+- **Animation**: Framer Motion
+- **Icons**: Lucide React
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js 18.x or higher
+- npm or yarn
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   ```bash
+   git clone https://github.com/yourusername/ai-portfolio-builder.git
+   cd ai-portfolio-builder
+   ```
 
-## Learn More
+2. Install dependencies:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Run the development server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-## Deploy on Vercel
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `app/`: Next.js app directory
+  - `(auth)/`: Authentication routes (login, register)
+  - `dashboard/`: Dashboard and portfolio management routes
+  - `page.tsx`: Homepage
+- `components/`: React components
+  - `ui/`: Reusable UI components
+  - `auth/`: Authentication-related components
+  - `portfolio/`: Portfolio-specific components
+- `lib/`: Utility functions and shared code
+- `public/`: Static assets
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Radix UI](https://www.radix-ui.com/)
+- [Shadcn UI](https://ui.shadcn.com/)
